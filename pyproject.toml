@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stack-cut-pro"
+version = "1.0.0"
+description = "Next-Gen AI Stream-to-Reels Highlight Clipper & 9:16 Vertical Video Studio"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [
+    { name = "Ayush kumar", email = "ykayush07@gmail.com" }
+]
+keywords = [
+    "stream-clipper",
+    "video-editing",
+    "whisper",
+    "ffmpeg",
+    "reels",
+    "shorts",
+    "tiktok",
+    "gaming",
+    "opencv",
+    "content-creation"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Multimedia :: Sound/Audio :: Analysis"
+]
+dependencies = [
+    "faster-whisper>=1.0.0",
+    "opencv-python-headless>=4.8.0",
+    "pillow>=10.0.0",
+    "numpy>=1.24.0",
+    "yt-dlp[default]>=2024.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/yk-ayush-07/stack-cut-pro"
+Repository = "https://github.com/yk-ayush-07/stack-cut-pro.git"
+Issues = "https://github.com/yk-ayush-07/stack-cut-pro/issues"
+
+[project.scripts]
+stack-cut-pro = "scripts.stack_cut_pro:main"
+stackcutpro = "scripts.stack_cut_pro:main"
