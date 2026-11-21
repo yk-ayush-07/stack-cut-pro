@@ -1,0 +1,7 @@
+# Stack Cut Pro Watchlist Configuration
+# Add creators to monitor when executing discovery and clipping commands.
+# Format: <platform>:<identifier> [| <topic>]
+#
+# Examples:
+# twitch:gaming_streamer | Valorant
+# youtube:@stream_highlights
